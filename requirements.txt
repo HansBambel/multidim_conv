@@ -1,0 +1,7 @@
+tensorboard
+pytorch
+tqdm
+einops
+scipy
+torchsummary
+numpy
