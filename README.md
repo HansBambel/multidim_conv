@@ -11,5 +11,5 @@
 It is possible to train multiple models after each other by adding them to the list of `models_to_test` in the `train_wind` and `train_wind_nl` functions.
 
 ## Proposed model
-Our proposed model can be found in [advanced_models.py](models/wind_models.py) under the name `MultidimConvNetwork`. The Multidimensional Convolution Layer can be found in the same file under `MultidimConv`.
+Our proposed model can be found in [wind_models.py](models/wind_models.py) under the name `MultidimConvNetwork`. The Multidimensional Convolution Layer can be found in the same file under `MultidimConv`.
  
