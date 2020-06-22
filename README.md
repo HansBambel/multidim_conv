@@ -1,6 +1,6 @@
 # Code for the Paper "*Wind speed prediction using multidimensional convolutional neuralnetworks*"
 
-![Multidimensional Convolution](Multidim%20conv.png)
+![Multidimensional Convolution](models-MultiDim.png)
 
 ## Usage
 1. Install the necessary packages from the `requirements.txt`.
@@ -13,3 +13,11 @@ It is possible to train multiple models after each other by adding them to the l
 ## Proposed model
 Our proposed model can be found in [wind_models.py](models/wind_models.py) under the name `MultidimConvNetwork`. The Multidimensional Convolution Layer can be found in the same file under `MultidimConv`.
  
+ ### Citation   
+```
+@article{trebing2020wind,
+  title={Wind speed prediction using multidimensional convolutional neural networks},
+  author={Trebing, Kevin and Mehrkanoon, Siamak},
+  year={2020}
+}
+```   
