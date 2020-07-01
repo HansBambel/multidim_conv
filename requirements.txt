@@ -1,7 +1,7 @@
 tensorboard
-pytorch
+pytorch==1.4.0
 tqdm
-einops
+einops==0.2.0
 scipy
 torchsummary
 numpy
