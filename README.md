@@ -3,7 +3,7 @@
 ![Multidimensional Convolution](models-MultiDim.png)
 
 ## Usage
-1. Install the necessary packages from the `requirements.txt`
+1. Install the necessary packages from the `requirements.txt`.
 2. Specify the training parameters in `train.py`.
 3. Execute `train.py`.
 
