@@ -1,4 +1,4 @@
-# Code for the Paper "*Wind speed prediction using multidimensional convolutional neuralnetworks*"
+# Code for the Paper "*Wind speed prediction using multidimensional convolutional neuralnetworks*" [arXiv-Link](https://arxiv.org/abs/2007.12567)
 
 ![Multidimensional Convolution](models-MultiDim.png)
 
