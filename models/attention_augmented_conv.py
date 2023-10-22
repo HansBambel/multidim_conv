@@ -76,11 +76,11 @@ class AugmentedConv(nn.Module):
         v = self.split_heads_2d(v, Nh)
 
         dkh = dk // Nh
-        q *= dkh ** -0.5
+        q_new = q * dkh ** -0.5
         flat_q = torch.reshape(q, (N, Nh, dk // Nh, H * W))
         flat_k = torch.reshape(k, (N, Nh, dk // Nh, H * W))
         flat_v = torch.reshape(v, (N, Nh, dv // Nh, H * W))
-        return flat_q, flat_k, flat_v, q, k, v
+        return flat_q, flat_k, flat_v, q_new, k, v
 
     def split_heads_2d(self, x, Nh):
         batch, channels, height, width = x.size()

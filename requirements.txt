@@ -1,5 +1,5 @@
 tensorboard
-pytorch==1.4.0
+pytorch
 tqdm
 einops==0.2.0
 scipy

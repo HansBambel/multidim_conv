@@ -366,9 +366,9 @@ def train_wind_nl(data_folder, epochs, input_timesteps, prediction_timestep, dev
                         print(f"Stopping early --> val_loss has not decreased over {earlystopping} epochs")
                         break
 
-            # print(f"Epoch: {epoch:5d}, Time: {(time.time() - start_time) / 60:.3f} min, "
-            #       f"Train_loss: {train_loss:2.10f}, Val_loss: {val_loss:2.10f}"
-            #       f", Early stopping counter: {earlystopping_counter}/{earlystopping}" if earlystopping is not None else "")
+            print(f"Epoch: {epoch:5d}, Time: {(time.time() - start_time) / 60:.3f} min, "
+                  f"Train_loss: {train_loss:2.10f}, Val_loss: {val_loss:2.10f}"
+                  f", Early stopping counter: {earlystopping_counter}/{earlystopping}" if earlystopping is not None else "")
 
             if tensorboard:
                 # add to tensorboard
