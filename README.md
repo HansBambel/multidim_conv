@@ -15,9 +15,12 @@ Our proposed model can be found in [wind_models.py](models/wind_models.py) under
  
  ### Citation   
 ```
-@article{trebing2020wind,
+@inproceedings{trebing2020wind,
   title={Wind speed prediction using multidimensional convolutional neural networks},
   author={Trebing, Kevin and Mehrkanoon, Siamak},
-  year={2020}
+  booktitle={2020 IEEE symposium series on computational intelligence (SSCI)},
+  pages={713--720},
+  year={2020},
+  organization={IEEE}
 }
 ```   
